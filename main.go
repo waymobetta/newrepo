@@ -72,6 +72,7 @@ func main() {
 	}
 
 	// create new repository with authenticated github client
+	// keep second argument empty if organization is self
 	repo, _, err := client.Repositories.Create(
 		ctx,
 		"",
@@ -82,4 +83,6 @@ func main() {
 	}
 
 	fmt.Printf("Successfully created new repo: %v\n", repo.GetName())
+
+	fmt.Printf("Git Repository: %v\n", repo.GetGitURL())
 }
