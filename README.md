@@ -16,7 +16,7 @@ $ go get -u github.com/waymobetta/newrepo
 ### usage
 
 ```bash
-$ newrepo --name=testrepo --private=true`
+$ newrepo --name=testrepo --private=true
 ```
 
 ### credits
