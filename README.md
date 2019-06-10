@@ -21,6 +21,6 @@ $ newrepo --name=testrepo --private=true
 
 ### credits
 
-Basically, I just leveraged the code from the go-github examples [here](https://github.com/google/go-github/blob/master/example/newrepo/main.go), kept the same program name and customized it to make it a little easier to work with and slightly more extensible
+Basically, I just leveraged the code from the [go-github](https://github.com/google/go-github) example directory [here](https://github.com/google/go-github/blob/master/example/newrepo/main.go), kept the same program name and customized it to make it a little easier to work with and slightly more extensible
 
 MIT
