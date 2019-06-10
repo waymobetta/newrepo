@@ -48,7 +48,7 @@ func main() {
 	// init context
 	ctx := context.Background()
 
-	// init new Oauth token
+	// init new OAuth token
 	tokenSource := oauth2.StaticTokenSource(
 		&oauth2.Token{
 			AccessToken: token,
